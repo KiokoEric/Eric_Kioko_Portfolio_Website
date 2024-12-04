@@ -3,7 +3,7 @@ import React from 'react';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-coverflow';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Login from "../../assets/Educate/Login.jpeg";
+import Login from "../../assets/Educate/Login.jpg";
 import Home_Page from "../../assets/Educate/HomePage.jpeg";
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 import My_Quizzes from "../../assets/Educate/My_Quizzes.jpeg";
