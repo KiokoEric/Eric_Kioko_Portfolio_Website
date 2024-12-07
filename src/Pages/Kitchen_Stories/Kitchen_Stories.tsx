@@ -18,7 +18,7 @@ import KitchenStoriesVideo from "../../assets/Kitchen_Stories/KitchenStories_Vid
 const Kitchen_Stories: React.FC = () => {
 
     const Kitchen_Stories_Demo = () => {
-        window.open(`https://ebudget-1rfs.onrender.com`) 
+        window.open(`https://kitchenstories-ten.vercel.app`) 
     }
 
     const Kitchen_Stories_Github = () => {

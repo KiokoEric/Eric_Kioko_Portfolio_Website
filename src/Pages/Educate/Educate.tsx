@@ -16,7 +16,7 @@ import Details from '../../Components/Common/Project_Details/Details';
 const Educate: React.FC = () => {
 
     const Educate_Demo = () => {
-        window.open(`https://ebudget-1rfs.onrender.com`) 
+        window.open(`https://educate-rouge.vercel.app`) 
     }
 
     const Educate_Github = () => {
