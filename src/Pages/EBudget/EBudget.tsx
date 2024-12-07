@@ -15,7 +15,7 @@ import LoanCalculator from "../../assets/EBudget/Loan_Calculator.jpeg";
 const EBudget: React.FC = () => {
 
     const EBudget_Demo = () => {
-        window.open(`https://ebudget-1rfs.onrender.com`) 
+        window.open(`https://ebudget-delta.vercel.app`) 
     }
 
     const EBudget_Github = () => {

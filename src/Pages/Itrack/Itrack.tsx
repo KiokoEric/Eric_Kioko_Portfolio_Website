@@ -19,7 +19,7 @@ import Archived_Projects from "../../assets/Itrack/Archived_Projects.jpeg";
 const Itrack: React.FC = () => {
 
     const Itrack_Demo = () => {
-        window.open(`https://ebudget-1rfs.onrender.com`) 
+        window.open(`https://itrack-sigma.vercel.app`) 
     }
 
     const Itrack_Github = () => {

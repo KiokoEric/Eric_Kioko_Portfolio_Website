@@ -17,7 +17,7 @@ import Better_HealthVideo from "../../assets/Better_Health/Better_Health_Video.m
 const Better_Health: React.FC = () => {
 
     const Better_Health_Demo = () => {
-        window.open(`https://ebudget-1rfs.onrender.com`) 
+        window.open(`https://betterhealth-eight.vercel.app`) 
     }
 
     const Better_Health_Github = () => {
