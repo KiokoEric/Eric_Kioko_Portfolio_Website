@@ -36,11 +36,11 @@ return (
             <div className='flex flex-col gap-2'>
                 <input type="text" id="Name" placeholder='Enter Full Name/Organisation'  
                 {...register("Name")} className='bg-inherit pb-2 border-b border-Grey outline-none text-lg w-80 sm:w-tablet lg:w-contact' />
-                <span className="Error">{errors.Name?.message}</span>
+                <span className="text-red-700 text-center">{errors.Name?.message}</span>
             </div>
             <div className='flex flex-col gap-2'>
                 <input type="text" id="EmailAddress" placeholder='Enter Email Address' {...register("EmailAddress")} className='bg-inherit pb-2 border-b border-Grey outline-none text-lg w-80 sm:w-tablet lg:w-contact' />
-                <span className="Error">{errors.EmailAddress?.message}</span>
+                <span className="text-red-700 text-center">{errors.EmailAddress?.message}</span>
             </div>
             <div className='flex flex-col gap-2'>
                 <input type="text" id="PhoneNumber" placeholder='Enter Phone Number'  
@@ -49,10 +49,10 @@ return (
             <div className='flex flex-col gap-2'>
                 <input type="text" id="Subject" placeholder='Enter Subject'  
                 {...register("Subject")} className='bg-inherit pb-2 border-b border-Grey outline-none text-lg w-80 sm:w-tablet lg:w-contact' />
-                <span className="Error">{errors.Subject?.message}</span>
+                <span className="text-red-700 text-center">{errors.Subject?.message}</span>
             </div>
             <textarea placeholder='Enter Message' id="Message" {...register("Message")} className='border-b border-black h-40 mt-2 outline-none p-3 rounded-sm text-black w-80 sm:w-tablet lg:w-contact'></textarea>
-            <span className="Error">{errors.Message?.message}</span>
+            <span className="text-red-700 text-center">{errors.Message?.message}</span>
             <p className='Success' >{Success}</p>
             <Button
                 ID='Button'
