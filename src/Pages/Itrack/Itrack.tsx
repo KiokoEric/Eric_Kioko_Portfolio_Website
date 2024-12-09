@@ -1,7 +1,4 @@
-import 'swiper/css';
 import React from 'react';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-coverflow';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import DashBoard from "../../assets/Itrack/DashBoard.jpeg";
 import My_Tickets from "../../assets/Itrack/My_Tickets.jpeg";
