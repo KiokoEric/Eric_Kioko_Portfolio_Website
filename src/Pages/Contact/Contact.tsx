@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
 
     const [Success, setSuccess] = useState("")
 
-    const formRef = useRef();
+    const formRef = useRef<HTMLFormElement | any>(null); 
 
     const PersonSchema = yup.object().shape({
         Name: yup.string().required("Name is required"),
@@ -51,7 +51,7 @@ return (
                 {...register("Subject")} className='bg-inherit pb-2 border-b border-Grey outline-none text-lg w-80 sm:w-tablet lg:w-contact' />
                 <span className="Error">{errors.Subject?.message}</span>
             </div>
-            <textarea type="text" placeholder='Enter Message' id="Message" {...register("Message")} className='border-b border-black h-40 mt-2 outline-none p-3 rounded-sm text-black w-80 sm:w-tablet lg:w-contact'></textarea>
+            <textarea placeholder='Enter Message' id="Message" {...register("Message")} className='border-b border-black h-40 mt-2 outline-none p-3 rounded-sm text-black w-80 sm:w-tablet lg:w-contact'></textarea>
             <span className="Error">{errors.Message?.message}</span>
             <p className='Success' >{Success}</p>
             <Button
