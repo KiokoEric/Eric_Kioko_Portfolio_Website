@@ -33,20 +33,20 @@ return (
     <div>
         <h2 className='font-bold mb-10 text-center text-4xl'>Get In Touch</h2>
         <form ref={formRef} onSubmit={handleSubmit(onSubmit)} className='flex flex-col gap-5 items-center justify-center'>
-            <div>
+            <div className='flex flex-col gap-2'>
                 <input type="text" id="Name" placeholder='Enter Full Name/Organisation'  
                 {...register("Name")} className='bg-inherit pb-2 border-b border-Grey outline-none text-lg w-80 sm:w-tablet lg:w-contact' />
                 <span className="Error">{errors.Name?.message}</span>
             </div>
-            <div>
+            <div className='flex flex-col gap-2'>
                 <input type="text" id="EmailAddress" placeholder='Enter Email Address' {...register("EmailAddress")} className='bg-inherit pb-2 border-b border-Grey outline-none text-lg w-80 sm:w-tablet lg:w-contact' />
                 <span className="Error">{errors.EmailAddress?.message}</span>
             </div>
-            <div>
+            <div className='flex flex-col gap-2'>
                 <input type="text" id="PhoneNumber" placeholder='Enter Phone Number'  
                 {...register("PhoneNumber")} className='bg-inherit pb-2 border-b border-Grey outline-none text-lg w-80 sm:w-tablet lg:w-contact' />
             </div>
-            <div>
+            <div className='flex flex-col gap-2'>
                 <input type="text" id="Subject" placeholder='Enter Subject'  
                 {...register("Subject")} className='bg-inherit pb-2 border-b border-Grey outline-none text-lg w-80 sm:w-tablet lg:w-contact' />
                 <span className="Error">{errors.Subject?.message}</span>
