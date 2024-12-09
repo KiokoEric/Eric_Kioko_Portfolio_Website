@@ -1,4 +1,4 @@
-import 'swiper.css';
+import 'swiper/swiper.css';
 import React from 'react';
 import 'swiper.pagination.css';
 import 'swiper.effect-coverflow.css';
