@@ -1,7 +1,4 @@
-import 'swiper/css';
 import React from 'react';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-coverflow';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
 import Home_Page from "../../assets/Better_Health/Home_Page.jpeg";
