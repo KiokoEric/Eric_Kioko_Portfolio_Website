@@ -1,7 +1,4 @@
-import 'swiper/css';
 import React from 'react';
-import 'swiper/css/pagination';
-import 'swiper/css/effect-coverflow';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Income from "../../assets/EBudget/IncomePage.jpeg";
 import Expense from "../../assets/EBudget/ExpensePage.jpeg";
