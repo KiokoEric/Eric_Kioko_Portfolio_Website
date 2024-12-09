@@ -1,4 +1,7 @@
+import 'swiper/css';
 import React from 'react';
+import 'swiper/css/pagination';
+import 'swiper/css/effect-coverflow';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import Login from "../../assets/Educate/Login.jpg";
 import Home_Page from "../../assets/Educate/HomePage.jpeg";
